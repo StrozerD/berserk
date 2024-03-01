@@ -5,7 +5,7 @@ using UnityEngine;
 public class Hero : Entity
 {
 	[SerializeField] private float speed = 5f;            // скорость перса
-	[SerializeField] private float jumpForce = 15f;       // высота прыжка перса
+	[SerializeField] private float jumpForce = 5f;       // высота прыжка перса
 	private bool isGrounded = false;
 
 	private Rigidbody2D rb;   // Физика героя
@@ -24,7 +24,7 @@ public class Hero : Entity
 	public static Hero Instance { get;  set; }
 
 	// Установка и взятие переменных для состояния анимация героя
-	private States State
+	public States State
 	{
 		get { return (States)anim.GetInteger("state"); }
 		set { anim.SetInteger("state", (int)value); }
