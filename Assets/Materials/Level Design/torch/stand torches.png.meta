@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d8a46972cdd327248a54680fb35834d2
+guid: cb38ed573dc03ff49802d32c8e26ec6d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: stand torches_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 16
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cee17475bb8144a94ace488595eef4
+      internalID: 2060438660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stand torches_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 16
+        width: 16
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d440f6eed5defe408f13787a841cdb0
+      internalID: 1801764571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stand torches_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 16
+        width: 16
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd1368345ecd11428d8e4744325da87
+      internalID: -711035120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stand torches_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 16
+        width: 16
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c902ad9e6cf3142bc6ae815a460acf
+      internalID: -569205414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stand torches_0: 2060438660
+      stand torches_1: 1801764571
+      stand torches_2: -711035120
+      stand torches_3: -569205414
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
